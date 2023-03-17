@@ -1,18 +1,18 @@
 #include <stdio.h>
 /**
- * main - prints the lowercase alphabet in reverse, followed by a new line.
+ * main - prints the alphabet in reverse.
  *
  * Return: 0 on success
  */
 int main(void)
 {
-	char ch;
+	char r = 'z';
 
-	for (ch = 'z' ; ch >= 'a' ; ch--)
+	while (r >= 'a')
 	{
-	putchar(ch);
+		putchar(r);
+		r--;
 	}
-	putchar(\n);
-return (0);
-
+	putchar('\n');
+	return (0);
 }
