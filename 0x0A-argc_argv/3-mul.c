@@ -4,7 +4,6 @@
 /**
  * _atoi - Convert a string to an integer.
  * @s: The pointer to convert
- *
  * Return: A integer
  */
 int _atoi(char *s)
@@ -43,7 +42,7 @@ int _atoi(char *s)
  * main - multiplies two numbers
  * @argc: number of arguments
  * @argv: arguments to be printed
- * Return:0 success, 1 error
+ * Return:0 (success), 1 (error)
  */
 
 int main(int argc, char **argv)
@@ -59,6 +58,5 @@ int main(int argc, char **argv)
 	n2 = _atoi(argv[2]);
 	res = n1 * n2;
 	printf("%d\n", res);
-
 	return (0);
 }
