@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- *get_op_function - This function returns a pointer to the function
+ *get_op_func - This function returns a pointer to the function
  *@s:  is the operator passed as argument to the program
  *Return: a pointer
  */
@@ -26,5 +26,5 @@ int (*get_op_func(char *s))(int, int)
 			return (ops[i].f);
 		i++;
 	}
-	return 0;
+	return (0);
 }
