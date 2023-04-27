@@ -2,13 +2,14 @@
 
 /**
  *_strlen - a function returns length of a string
- *@str: a string to count
+ *@s: a string to count
  *Return: length of a string
  */
 
 int _strlen(const char *s)
 {
 	int i;
+
 	for (i = 0; s[i] != '\0'; i++)
 		;
 	return (i);
