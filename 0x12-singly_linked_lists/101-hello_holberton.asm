@@ -7,9 +7,9 @@ section .text
 	global main
 main:
 	push rbp
-	mov rdi,fmt
-	mov rsi,msg
-	mov rax,0
+	move rdi,fmt
+	move rsi,msg
+	move rax,0
 	call printf
 
 	pop rbp
