@@ -1,10 +1,9 @@
 #include "lists.h"
 
 /**
- *
- *
- *
- *
+ * print_dlistint - prints data and returns number of nodes
+ * @h: head pointer
+ * Return: number of nodes
  */
 
 size_t print_dlistint(const dlistint_t *h)
